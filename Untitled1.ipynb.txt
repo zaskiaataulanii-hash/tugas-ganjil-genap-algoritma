@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "ir",
+      "display_name": "R"
+    },
+    "language_info": {
+      "name": "R"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "id": "Nr32aXAdNK5P",
+        "outputId": "634ad6bc-f276-403c-e241-94d359a3aa61"
+      },
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/html": [
+              "'genap'"
+            ],
+            "text/markdown": "'genap'",
+            "text/latex": "'genap'",
+            "text/plain": [
+              "[1] \"genap\""
+            ]
+          },
+          "metadata": {}
+        }
+      ],
+      "source": [
+        "cek_ganjil_genap <- function(angka) {\n",
+        "    if (angka %% 2 == 0) {\n",
+        "        return(\"genap\")\n",
+        "          } else {\n",
+        "              return(\"ganjil\")\n",
+        "                }\n",
+        "                }\n",
+        "                cek_ganjil_genap(4)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "Tsb552-MRDnS"
+      }
+    }
+  ]
+}
